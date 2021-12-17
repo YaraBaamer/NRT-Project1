@@ -31,10 +31,6 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
-  
-  
-
 }
 
 .div1{
@@ -182,9 +178,7 @@ margin-left: 200px;
     font-weight: lighter;
     margin-top: 70px;
     margin-right: 35px;
-    margin-left: 450px;
-    
-    
+    margin-left: 150px;
 }
 
 
@@ -215,7 +209,7 @@ margin-left: 200px;
     font-weight: lighter;
     margin-top: 70px;
    padding-left: 50px;
-   
+   margin-right: 220px;
 }
 
 
@@ -246,7 +240,93 @@ margin-left: 200px;
     font-weight: lighter;
     margin-top: 70px;
     margin-right: 35px;
-    margin-left: 450px;
-    
-    
+    margin-left: 150px;
+}
+
+.fifth{
+    display: flex;
+    background-color: #0c1753;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: bolder;
+    justify-content: space-between;
+
+}
+
+.fifth h1{
+padding-right: 0px;
+padding-left: 50px;
+font-size: 35pt;
+margin-left: 50px;
+}
+
+.fifth h3{
+    font-size: 20pt;
+}
+
+.rightform{
+display: flex;
+flex-wrap: wrap;
+margin-left: 130px;
+}
+
+.form{
+
+}
+.firstline{
+   display: flex;
+   justify-content: space-between;
+   color: #0c1753;
+}
+
+label{
+   
+}
+.firstlabel{
+    width: 290px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.secondlabel{
+    width: 290px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.thirdlabel{
+    width: 612px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.fourthlabel{
+    width: 612px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.fifthlabel{
+   display: flex;
+    width: 612px;
+    height: 50px;
+    border-radius: 8px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+
+}
+
+.fifth button{
+    background-color: #ffe101;
+    color: #0c1753;
+    font-size: 35pt;
+    border-radius: 10px;
+    border-style: none;
+    text-decoration: none;
+    width: 628px;
+    align-items: center;
 }
