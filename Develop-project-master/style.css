@@ -330,3 +330,69 @@ label{
     width: 628px;
     align-items: center;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerlogo img{
+width: 350px;
+padding: 40px;
+}
+
+.footer h2{
+    font-family: "Quicksand";
+    font-weight: bolder;
+    font-size: 30pt;
+    color: #00a69c;
+}
+
+/*
+.space{
+    display: flex;
+    gap: 50px;
+}*/
+
+.footerfirst{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.footerlist1{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+    color: #0c1753;
+    font-family: "Quicksand";
+    font-weight: bolder;
+    font-size: 25pt;
+}
+
+.footersecond{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
+.footerlist2{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-content: space-between;
+    gap: 20px;
+    color: #0c1753;
+    font-family: "Quicksand";
+    font-weight: bolder;
+    font-size: 25pt;
+}
+
+.footerthird{
+padding-left: 50px;
+}
+
+.footerthird img{
+    width: 90%;
+}
